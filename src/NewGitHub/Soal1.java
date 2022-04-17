@@ -2,7 +2,7 @@ package NewGitHub;
 import java.util.Scanner;
 
 public class Soal1 {
-	public int inputN(){
+	public int inputN(){//edit
 		System.out.println("Masukan Nilai N:");
 		Scanner scan = new Scanner(System.in);
 		int n= scan.nextInt();

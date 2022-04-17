@@ -6,6 +6,7 @@ public class Soal1 {
 		System.out.println("Masukan Nilai N:");
 		Scanner scan = new Scanner(System.in);
 		int n= scan.nextInt();
+		scan.close();
 		return n;
 	}
 	public int [][] isiArray(int n){
